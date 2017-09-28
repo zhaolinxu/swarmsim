@@ -203,7 +203,7 @@ https://github.com/erosson/swarm
         // https://codelabs.developers.google.com/codelabs/add-to-home-screen/#5
         if ('serviceWorker' in navigator) {
             window.addEventListener('load', function() {
-                navigator.serviceWorker.register('service-worker.js').then(function(reg) {
+                navigator.serviceWorker.register('https://zhaolinxu.github.io/swarmsim/service-worker.js').then(function(reg) {
                     console.log("service worker registered");
                 }).catch(function(err) {
                     console.warn("service worker registration failed", err)
